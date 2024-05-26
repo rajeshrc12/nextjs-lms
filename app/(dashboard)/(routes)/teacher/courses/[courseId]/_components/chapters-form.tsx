@@ -9,12 +9,11 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Chapter, Course } from "@prisma/client";
 import axios from "axios";
-import { Loader2, Pencil, PlusCircle } from "lucide-react";
+import { Loader2, PlusCircle } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
