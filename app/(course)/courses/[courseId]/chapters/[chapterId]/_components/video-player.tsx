@@ -25,7 +25,7 @@ const VideoPlayer = ({
   title,
   videoUrl,
 }: VideoPlayerProps) => {
-  const [isReady, setIsReady] = useState(false);
+  const [isReady, setIsReady] = useState(true);
   return (
     <div className="relative aspect-video">
       {!isReady && !isLocked && (
@@ -50,7 +50,7 @@ const VideoPlayer = ({
         // />
         <video
           controls
-          autoPlay
+          //   autoPlay
           src={videoUrl}
           onEnded={() => {
             console.log("ended");
