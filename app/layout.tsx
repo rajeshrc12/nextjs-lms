@@ -8,8 +8,8 @@ import ConfettiProvider from "@/components/providers/confetti-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Udemy",
-  description: "Learning management system",
+  title: "LearnSphere",
+  description: "LearnSphere",
 };
 
 export default function RootLayout({
