@@ -10,4 +10,5 @@ Features
 - ✏️ Enabled teachers to publish, unpublish, edit, and delete courses and chapters, ensuring content flexibility.
 
 ## Demo
-<video src="https://youtu.be/22tVWwmTie8" height="300px"></video>
+
+https://github.com/rajeshrc12/nextjs-lms/assets/91599153/137ac2c6-6f9f-44e0-b645-a5b4d227162f
